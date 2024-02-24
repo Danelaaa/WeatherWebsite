@@ -1,4 +1,9 @@
 # Weather
+`npm install`
+`ng serve`
+
+![Screenshot 2024-02-24 211204](https://github.com/Danelaaa/WeatherWebsite/assets/76698378/0545e97f-4355-4f23-a17f-d75e69e375db)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
