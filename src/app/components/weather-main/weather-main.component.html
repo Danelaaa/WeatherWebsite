@@ -1,0 +1,19 @@
+<div class="input">
+    <input type="text" [(ngModel)]="cityName">
+    <button (click)="getWeather()">ძებნა</button>
+</div>
+<section class="main"> 
+    <div class="main_details">
+        <div class="main_clock">
+            <app-clock></app-clock>
+            <div class="img"> 
+                <img *ngIf="weatherIcon" [src]="weatherIcon" alt="Weather Icon">
+                <p>{{temperature}}</p>
+                <p>°C</p>
+            </div>
+        </div>
+        <p>{{location}},{{country}}</p>
+    </div>  
+</section>
+<app-details></app-details>
+<app-slider></app-slider>

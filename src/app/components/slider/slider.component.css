@@ -1,0 +1,70 @@
+.slider {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    min-height: 162px;
+    overflow-x: scroll;
+    width: 100%;
+   padding-bottom: 10px;
+}
+
+.slider ul {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-left: 5%;
+    
+}
+
+.slider ul li {
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.card {
+    align-items: center;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background-color: hsla(0, 0%, 100%, .1);
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+    display: flex;
+    flex-direction: column;
+    height: 8vw;
+    justify-content: space-evenly;
+    max-height: 160px;
+    min-height: 140px;
+    min-width: 192px;
+    padding: 10px;
+}
+
+.slider::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slider::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0); /* Make the background transparent */
+}
+
+.card p {
+    align-items: flex-start;
+    display: flex;
+    font-size: .9rem;
+    justify-content: center;
+}
+
+.card img {
+    height: 60px;
+    width: 70px;
+}
+
+.card h4 {
+    font-size: .9rem;
+    text-transform: uppercase;
+}
